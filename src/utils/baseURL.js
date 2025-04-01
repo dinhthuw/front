@@ -3,7 +3,7 @@ const getBaseUrl = () => {
     const isDevelopment = process.env.NODE_ENV === 'development';
     
     // Return appropriate API URL based on environment
-    return isDevelopment ? "https://back-ot4d.onrender.com" : "https://api.yourproductionsite.com";
+    return isDevelopment ? "https://back-ot4d.onrender.com" : "https://back-ot4d.onrender.com";
 }
 
 export default getBaseUrl;
